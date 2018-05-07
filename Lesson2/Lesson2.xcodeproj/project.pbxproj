@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0DD7B5F420A0EBF600DFB097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7B5F320A0EBF600DFB097 /* main.swift */; };
+		0DD7B5FB20A0FE5200DFB097 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7B5FA20A0FE5200DFB097 /* File.swift */; };
+		0DD7B5FD20A1063F00DFB097 /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7B5FC20A1063F00DFB097 /* Optionals.swift */; };
+		0DD7B5FF20A10CFB00DFB097 /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7B5FE20A10CFB00DFB097 /* Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0DD7B5F020A0EBF600DFB097 /* Lesson2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD7B5F320A0EBF600DFB097 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0DD7B5FA20A0FE5200DFB097 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0DD7B5FC20A1063F00DFB097 /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
+		0DD7B5FE20A10CFB00DFB097 /* Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0DD7B5F320A0EBF600DFB097 /* main.swift */,
+				0DD7B5FA20A0FE5200DFB097 /* File.swift */,
+				0DD7B5FC20A1063F00DFB097 /* Optionals.swift */,
+				0DD7B5FE20A10CFB00DFB097 /* Ex.swift */,
 			);
 			path = Lesson2;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD7B5FF20A10CFB00DFB097 /* Ex.swift in Sources */,
+				0DD7B5FD20A1063F00DFB097 /* Optionals.swift in Sources */,
 				0DD7B5F420A0EBF600DFB097 /* main.swift in Sources */,
+				0DD7B5FB20A0FE5200DFB097 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
