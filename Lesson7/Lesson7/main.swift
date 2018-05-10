@@ -17,6 +17,7 @@ import Foundation
 //    // associate value
 //}
 
+// Swift's Enums with associated values cannot have a raw value
 enum PrimaryColor {
     // raw value
     case red(r: Int)
@@ -26,4 +27,14 @@ enum PrimaryColor {
 }
 
 //PrimaryColor.blue.rawValue
+var color = PrimaryColor.red(r: 100)
+
+switch color {
+case .red(let value):
+    print("Red has associated value: \(value)")
+case .blue(let value, let name):
+    print("It's Blue with \(value) and Name: \(name)")
+case .green(let value):
+    print("Green has associated value: \(value)")
+}
 
