@@ -35,7 +35,7 @@ for (food, yum) in polarizingFoods {
 var rapperPhoneNumbers = ["Azealia Banks":"(212)548-8777", "Boots Riley":"(415)755-9887", "MC Hammer":"(415)533-9899", "Missy Elliot":"(757)488-5552", "Shock G":"(415)499-7676", "Sir Mix-a-lot":"(206)123-4567", "Snoop Dogg":"(213)760-6664"]
 
 for (name, num) in rapperPhoneNumbers {
-    rapperPhoneNumbers.updateValue(num.replacingOccurrences(of: "415", with: "510"), forKey: name)
+    rapperPhoneNumbers.updateValue(num.replacingOccurrences(of: "(415)", with: "(510)"), forKey: name)
 }
 rapperPhoneNumbers
 //: ## Switch Statements
